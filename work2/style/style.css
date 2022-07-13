@@ -1,0 +1,83 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.header{
+    margin: 53px 46px;
+}
+
+.nav_ul{
+    text-align: center;
+}
+
+.nav_li{
+    display: inline-block;
+    
+
+}
+.nav_li:not(:last-of-type){
+    margin-right: 45px;
+}
+
+
+.nav_link{
+Font style: Bold
+Font size: 18px
+Line height: 25px
+Line height: 100%
+Align: Center
+Vertical align: Top
+Fill: Solid
+ color: 000000 ;
+ text-decoration: none;
+
+}
+
+.background{
+    text-align: center;
+    padding: 138px 0px 169px 0px;
+    background-image: url(../img/pexels-harrison-candlin-2441454\ 1.png);
+    width: 1300px;
+   
+}
+.background_title{
+    font-weight: 700;
+    margin: 0 auto 24px ;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+.background_button{
+    width: 420px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border:rgba(92, 152, 171, 1);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #162C38;
+
+}
+
+.description{
+    background-color: rgba(92, 152, 171, 1);
+    text-align: center;
+    padding: 133px;
+    width: 1034px;
+}
+.description_title{
+    font-weight: 756px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 49px;
+    color: rgb(255, 255, 255);
+   
+
+}
