@@ -1,0 +1,15 @@
+.text{
+    color: rgb(236, 182, 182);
+    background-color: rgba(236, 182, 182, .5);
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 20px;
+    box-shadow: -13px 26px 24px -2px rgba(0, 0, 0, 0.78);
+    
+}
