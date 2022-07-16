@@ -1,0 +1,192 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 53px 46px;
+}
+
+.nav_ul{
+    text-align: center;
+}
+
+.nav_li{
+    display: inline-block;
+}
+
+.nav_li:not(:last-of-type){
+    margin-right: 45px;
+}
+
+.nav_link{
+    font-weight: bold;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 100%;
+    text-align: Center;
+    color: #000000 ;
+    text-decoration: none;
+}
+
+.background{
+    text-align: center;
+    padding: 138px 0px 169px 0px;
+    background-image: url("../img/pexels-harrison-candlin-2441454\ 1.png");
+   
+}
+.background_title{
+    font-weight: 700;
+    margin: 0 auto 24px ;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+
+.background_button{
+    width: 420px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 5px solid rgb(92, 152, 171);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #162C38;
+}
+
+.description{
+    background-color: rgba(92, 152, 171, 1);
+    text-align: center;
+    padding: 133px 0;  
+}
+.description_title{
+    max-width: 726px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 49px;
+    color: rgb(255, 255, 255);
+}
+
+.square_section{
+position: relative;
+}
+.square_text{
+    margin: 221px auto 0px; 
+    
+}
+.square{
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    }
+
+    .square_1{
+left: 0;
+top: -121px;
+    }
+    .square_2{
+left: 0;
+bottom: -60px;
+    }
+    .square_3{
+right: 0;
+top: 24px;
+    }
+
+    .circle_section{
+
+    }
+
+    .circle_text{
+        position: relative;
+        margin: 216px auto 0;
+    }
+
+.circle_text::before{
+content:"" ;
+position: absolute;
+width: 58px;
+height: 58px;
+background: #5C98AB;
+border-radius: 50%;
+top: -56px;
+left: -32px;
+
+}
+
+.circle_text::after{
+    content:"" ;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #BFDEFB;
+    border-radius: 50%;
+    bottom: -56px;
+    right: -152px;
+    }
+
+
+    .text{
+        
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #000000; 
+        max-width: 777px;
+    }
+
+
+    .fom-section{
+        max-width: 647px;
+        margin: 96px auto 100px;
+    }
+    
+    .input_wrapper{
+        position: relative;
+        margin-bottom: 41px;
+    }
+    
+    .input{
+        width: 100%;
+        padding: 36px 0px 12px 29px;
+        border: 1px solid black;
+        border-radius: 4px;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    .label{
+        position: absolute;
+        left: 29px;
+        top: 11px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #6C6C6C;
+    }
+    .input::placeholder{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+    
+    }
+    
+    .form_button{
+        margin: 41px auto;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        color: #FFFFFF;
+        width: 647px;
+        height: 92px;
+        background: #5C98AB;
+        
+    }
